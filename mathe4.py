@@ -11,4 +11,4 @@ for Day in Week:
 for CnDay in WeekCn:
     print(CnDay,end="  ")
 
-# далее страница 81
+# далее страница 81 continue
