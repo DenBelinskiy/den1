@@ -11,7 +11,7 @@ while Attemp < 5 :
     Shoot1 = random.randint(1, 6)
     time.sleep(1)
     print(Shoot1)
-    print("Мвой бросок")
+    print("Мой бросок")
     Shoot2 = random.randint(1, 6)
     time.sleep(1)
     print(Shoot2)
