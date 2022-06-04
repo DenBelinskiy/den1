@@ -7,7 +7,7 @@ Term = int(input())
 for N in range(Term):
     Free = Capital * Percent / 100
     Capital = Capital + Free
-print("Ты получиш",Capital,"рублей")
+print("Ты получиш", Capital, "рублей")
 if Capital < 1000000:
     print("Но так ты не станеш миллионером")
 else:
