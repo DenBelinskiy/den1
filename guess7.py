@@ -2,10 +2,9 @@ import random
 def initGame():
     Secret = "Я загадал число от 1 до 1000"
     print(Secret)
-    Input = 0
-    Attemp = 0
 
-def playGame():
+def playGame(Attemp, Input):
+
     Case = random.randint(1, 1000)
     while Input != Case:
         print("Угадай число: ", end="")
@@ -20,10 +19,12 @@ def playGame():
             print("Слишком большое")
         if Input == Case:
             print("Правильно")
-def endGame():
+    return Attemp
+
+def endGame(Attemp):
     print("Ты попробовал", Attemp, "раз.")
 
 
 initGame()
-playGame()
-endGame()
+Game = playGame(0, 0)
+endGame(Game)
